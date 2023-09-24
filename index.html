@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Ability Analyzer</title>
+</head>
+<body>
+    <h1>Cognitive Ability Analyzer</h1>
+    <form id="cognitiveForm">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+        </div>
+        <div>
+            <label for="brothers">Number of Brothers:</label>
+            <input type="number" id="brothers" required>
+        </div>
+        <div>
+            <label for="textbox3">Textbox 3:</label>
+            <input type="number" id="textbox3" readonly>
+            <div id="error3" class="error"></div>
+        </div>
+        <div>
+            <label for="textbox4">Textbox 4:</label>
+            <input type="number" id="textbox4" readonly>
+            <div id="error4" class="error"></div>
+        </div>
+        <div>
+            <label for="textbox5">Textbox 5:</label>
+            <input type="number" id="textbox5" readonly>
+            <div id="error5" class="error"></div>
+        </div>
+        <div>
+            <label for="textbox6">Textbox 6:</label>
+            <input type="number" id="textbox6" readonly>
+        </div>
+        <div>
+            <label for="enteredBrothers">Entered Brothers:</label>
+            <input type="number" id="enteredBrothers" required>
+        </div>
+        <div>
+            <label for="enteredSisters">Entered Sisters:</label>
+            <input type="number" id="enteredSisters" required>
+        </div>
+        <button type="button" id="analyzeButton">Analyze</button>
+        <div id="result" class="result"></div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
